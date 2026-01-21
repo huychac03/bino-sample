@@ -7,5 +7,8 @@
 
 | ID | Time | T | Title | Read |
 |----|------|---|-------|------|
+| #188 | 6:00 PM | ✅ | Background blob colors updated to pink palette | ~222 |
+| #186 | 5:53 PM | ✅ | Color scheme updated from purple to green #C5D89D | ~289 |
+| #185 | " | ✅ | CTA button styling updated for green color scheme | ~261 |
 | #181 | 5:35 PM | 🟣 | Liquid glass theme styling implemented with purple color scheme | ~419 |
 </claude-mem-context>
