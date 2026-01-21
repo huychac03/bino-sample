@@ -7,8 +7,18 @@
 
 | ID | Time | T | Title | Read |
 |----|------|---|-------|------|
+| #198 | 6:03 PM | ✅ | CTA button gradient and shadow updated for consistency | ~248 |
+| #195 | " | ✅ | Logo accent color updated to darker pink | ~132 |
+| #194 | " | ✅ | Feature card styling updated for light theme | ~274 |
+| #193 | " | ✅ | Design updated to white and pink color scheme | ~429 |
+| #192 | " | ✅ | Background blob visual effects enhanced with softer blur | ~193 |
+| #191 | 6:02 PM | ✅ | Theme changed from dark to light mode | ~261 |
+| #190 | " | ✅ | Page background changed from dark to light pink gradient | ~238 |
+| #189 | 6:01 PM | ✅ | Color scheme changed from green to pink | ~214 |
 | #188 | 6:00 PM | ✅ | Background blob colors updated to pink palette | ~222 |
+| #187 | " | ✅ | Color scheme changed from green to pink #FFD8DF | ~210 |
 | #186 | 5:53 PM | ✅ | Color scheme updated from purple to green #C5D89D | ~289 |
 | #185 | " | ✅ | CTA button styling updated for green color scheme | ~261 |
+| #183 | " | ✅ | Color scheme changed from purple to green | ~247 |
 | #181 | 5:35 PM | 🟣 | Liquid glass theme styling implemented with purple color scheme | ~419 |
 </claude-mem-context>

@@ -8,17 +8,17 @@
     --primary: #FFD8DF;
     --primary-light: #FFE8ED;
     --primary-dark: #FFB8C5;
-    --glass-bg: rgba(255, 255, 255, 0.1);
-    --glass-border: rgba(255, 255, 255, 0.2);
-    --text-primary: #ffffff;
-    --text-secondary: rgba(255, 255, 255, 0.8);
+    --glass-bg: rgba(255, 255, 255, 0.7);
+    --glass-border: rgba(255, 216, 223, 0.3);
+    --text-primary: #1a1a2e;
+    --text-secondary: rgba(26, 26, 46, 0.7);
 }
 
 body {
     font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
     min-height: 100vh;
     overflow-x: hidden;
-    background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3a 50%, #0a0a1a 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #FFF0F3 50%, #ffffff 100%);
 }
 
 .background {
@@ -34,8 +34,8 @@ body {
 .blob {
     position: absolute;
     border-radius: 50%;
-    filter: blur(80px);
-    opacity: 0.6;
+    filter: blur(100px);
+    opacity: 0.4;
     animation: float 20s ease-in-out infinite;
 }
 
@@ -104,9 +104,9 @@ body {
     width: 100%;
     text-align: center;
     box-shadow:
-        0 8px 32px rgba(0, 0, 0, 0.3),
-        inset 0 1px 0 rgba(255, 255, 255, 0.1),
-        0 0 0 1px rgba(255, 255, 255, 0.05);
+        0 8px 32px rgba(255, 216, 223, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8),
+        0 0 0 1px rgba(255, 255, 255, 0.5);
     animation: fadeIn 1s ease-out;
 }
 
@@ -133,13 +133,13 @@ body {
 }
 
 .logo-dot {
-    color: var(--primary-light);
+    color: var(--primary-dark);
 }
 
 .divider {
     width: 60px;
     height: 4px;
-    background: linear-gradient(90deg, var(--primary), var(--primary-light));
+    background: linear-gradient(90deg, var(--primary-dark), var(--primary));
     border-radius: 2px;
     margin: 0 auto 32px;
 }
@@ -159,7 +159,7 @@ body {
 }
 
 .description strong {
-    color: var(--primary-light);
+    color: var(--primary-dark);
     font-weight: 600;
 }
 
@@ -177,15 +177,15 @@ body {
     align-items: center;
     gap: 10px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--glass-border);
     min-width: 100px;
     transition: all 0.3s ease;
 }
 
 .feature:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.8);
     transform: translateY(-5px);
 }
 
@@ -196,7 +196,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
-    background: linear-gradient(135deg, var(--primary), var(--primary-light));
+    background: linear-gradient(135deg, var(--primary-dark), var(--primary));
     border-radius: 12px;
 }
 
@@ -215,19 +215,19 @@ body {
     align-items: center;
     gap: 10px;
     padding: 16px 32px;
-    background: linear-gradient(135deg, var(--primary), var(--primary-light));
+    background: linear-gradient(135deg, var(--primary-dark), var(--primary));
     color: #1a1a2e;
     text-decoration: none;
     border-radius: 16px;
     font-weight: 700;
     font-size: 1.05rem;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(255, 216, 223, 0.4);
+    box-shadow: 0 4px 20px rgba(255, 184, 197, 0.4);
 }
 
 .cta-button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(255, 216, 223, 0.6);
+    box-shadow: 0 8px 30px rgba(255, 184, 197, 0.6);
 }
 
 .cta-button svg {
@@ -242,7 +242,6 @@ body {
     margin-top: 40px;
     color: var(--text-secondary);
     font-size: 0.9rem;
-    opacity: 0.7;
 }
 
 /* Responsive */
