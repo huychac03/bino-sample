@@ -5,9 +5,9 @@
 }
 
 :root {
-    --primary: #643DC4;
-    --primary-light: #8A5BFF;
-    --primary-dark: #4A2D94;
+    --primary: #C5D89D;
+    --primary-light: #D4E8B5;
+    --primary-dark: #A5C27A;
     --glass-bg: rgba(255, 255, 255, 0.1);
     --glass-border: rgba(255, 255, 255, 0.2);
     --text-primary: #ffffff;
@@ -51,7 +51,7 @@ body {
 .blob-2 {
     width: 400px;
     height: 400px;
-    background: #8A5BFF;
+    background: #D4E8B5;
     bottom: -150px;
     right: -100px;
     animation-delay: -7s;
@@ -60,7 +60,7 @@ body {
 .blob-3 {
     width: 300px;
     height: 300px;
-    background: #4A2D94;
+    background: #A5C27A;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -216,18 +216,18 @@ body {
     gap: 10px;
     padding: 16px 32px;
     background: linear-gradient(135deg, var(--primary), var(--primary-light));
-    color: white;
+    color: #1a1a2e;
     text-decoration: none;
     border-radius: 16px;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.05rem;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(100, 61, 196, 0.4);
+    box-shadow: 0 4px 20px rgba(197, 216, 157, 0.4);
 }
 
 .cta-button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(100, 61, 196, 0.6);
+    box-shadow: 0 8px 30px rgba(197, 216, 157, 0.6);
 }
 
 .cta-button svg {
